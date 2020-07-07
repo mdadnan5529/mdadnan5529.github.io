@@ -186,7 +186,7 @@ h1{
 	text-align: center;
 }
 p{
-	text-align: center;
+	text-align: left: 
 	margin: 0;
 	padding-top: 10px;
 	opacity: 1;
@@ -658,4 +658,81 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .card-header
 {
 	text-align: center;
+}
+.skills-cards
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.skill-div 
+{
+    width: 22em;
+    background: transparent;
+    margin-right: 3.5%;
+    border: 1px solid whitesmoke;
+}
+
+
+.skills.title
+{
+	 text-align: left;
+    margin-left: 5%;
+    padding: 1%;
+    color: aqua;
+}
+.technical-skills
+{
+	margin-top: 5%;
+}
+.Header 
+{
+    text-align: center;
+    height: auto;
+    background: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+li::before {
+    content: "\F0DA";
+    font-family: FontAwesome;
+    margin-right: 5px;
+}
+li {
+    list-style-type: none;
+}
+ul {
+    padding-left: 15px;
+}
+.skills-cards h6 {
+    margin-top: 5px;
+    font-size: 1.7em;
+}
+.container.text-center.text-md-left.mt-5
+{
+	max-width: 95vw;
+}
+.row.mt-3.dark-grey-text {
+    display: block;
+}
+.contact-details
+{
+	float: right;
+}
+.my-intro
+{
+	float: left;
+}
+.footer
+{
+	position:relative;
+	bottom: 0;
+}
+.mid-footer
+{
+	min-height: 15rem;
+}
+.footer-copyright.text-center.text-black-50.py-3
+{
+	padding-left: 20%;
+	background: wheat;
 }
