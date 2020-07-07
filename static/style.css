@@ -646,6 +646,8 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 .container-fluid.education 
 {
@@ -692,15 +694,15 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     background: whitesmoke;
     border: 1px solid whitesmoke;
 }
-li::before {
+.skill-div li::before {
     content: "\F0DA";
     font-family: FontAwesome;
     margin-right: 5px;
 }
-li {
+.skill-div li {
     list-style-type: none;
 }
-ul {
+.skill-div ul {
     padding-left: 15px;
 }
 .skills-cards h6 {
@@ -709,7 +711,8 @@ ul {
 }
 .container.text-center.text-md-left.mt-5
 {
-	max-width: 95vw;
+	max-width:100vw;
+	margin-left: 2%;
 }
 .row.mt-3.dark-grey-text {
     display: block;
@@ -730,9 +733,26 @@ ul {
 .mid-footer
 {
 	min-height: 15rem;
+	margin-bottom: 2rem;
 }
 .footer-copyright.text-center.text-black-50.py-3
 {
-	padding-left: 20%;
-	background: wheat;
+	background: #ecebeb;
+}
+.contetn-wrapper {
+    margin-bottom: 2%;
+}
+.social-footer
+{
+	padding-left: 2.5rem;
+	padding-right: 5rem;
+}
+.card,.card.text-white.bg-dark.mb-3
+{
+	margin-right: 2.5%;
+	margin-right: 2.5%;
+}
+.card-text:last-child
+{
+	font-size: 14px;
 }
