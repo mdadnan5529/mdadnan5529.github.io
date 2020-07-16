@@ -550,10 +550,12 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 #Website_Identification 
 {
     flex-direction: column;
+    margin: 5% 0;
 }
 #Welcome_text
 {
 	transition: color 1s;
+	text-align: center;
 }
 #Welcome_text:hover
 {
@@ -587,6 +589,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .container-fluid.Projects
 {
 	padding: 0;
+	margin: 10% 0;
 }
 .card-img-top
 {
@@ -786,4 +789,33 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .Achievement i 
 {
     margin-right: 10px;
+}
+#my-image
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.my_image
+{
+	text-align: center;
+}
+.about-me
+{
+	padding: 3% 20%;
+}
+.personal-details
+{
+	background: white;
+	box-shadow:   5px 5px 5px gray,-5px -5px 5px gray;
+}
+.logo-text {
+	text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font: {
+		size: 40px;
+		family: $font;
+	};
 }
