@@ -620,6 +620,8 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin-left: 5%;
     padding: 1%;
     color: black;
+    text-align: center;
+    font-size: 2.5rem;
 }
 .Projects-card
 {
@@ -1047,4 +1049,57 @@ Copied Style
 #share {
     transform: rotate(135Deg);
     text-decoration: unset;
+}
+#Whatsapp_icon {
+    color: green;
+    font-size: 30px;
+}
+.col {
+    text-align: center;
+}
+.skills-list {
+    text-align: left;
+    list-style-type: none;
+}
+#skills-list-item::before
+{
+	font-family: FontAwesome;
+	content: "\f16c";
+	margin-right: 10px;
+}
+.achievements-list {
+    text-align: left;
+    list-style-type: none;
+    font-size: 1.22rem;
+    margin-top: 10%;
+}
+#achievements-list-item::before
+{
+	font-family: FontAwesome;
+	content: "\f091";
+	margin-right: 10px;
+	color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* styling for phone */
+@media only screen and (max-width: 500px)
+{
+	.about-me
+	{
+		padding: 3%;
+	}
 }
