@@ -1232,8 +1232,12 @@ p.address
 {
 	margin-bottom: 10%;
 }
-
-
+.popup
+{
+	width: 25rem;
+	height: 25rem;
+	display: none;
+}
 
 /* styling for phone */
 @media only screen and (max-width: 500px)
