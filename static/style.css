@@ -1287,3 +1287,16 @@ p.address
 	display: none !important;
 }
 }
+
+.close-modal
+{
+	z-index: 5000;
+}
+.modal-dialog 
+{
+    pointer-events: auto;
+    max-width: 80vw;
+    height:60vh; 
+    background: gray;
+    top: 15%;
+}
