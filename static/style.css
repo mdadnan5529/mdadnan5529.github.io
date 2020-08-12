@@ -1290,6 +1290,21 @@ p.address
 .navigation-wrap
 {
 }
+.modal-dialog
+{
+	max-width: 100vw !important;
+	height: 100vh !important;
+}
+.Project-intro ,.Project-desc{
+    flex-direction: column;
+}
+.description {
+    width: 100% !important;
+}
+.modal-dialog
+{
+	overflow: scroll;
+}
 }
 
 .close-modal
@@ -1377,6 +1392,7 @@ p.address
 {
 	position: relative;
 	top: -5px;
+	right: 10px;
 }
 .modal-dialog
 {
@@ -1386,4 +1402,14 @@ p.address
 .modal
 {
 	background: rgba(236,244,252,0.9);
+}
+.modal-dialog
+{
+	transform: scale(0.01);
+	transition: transform 0.7s;
+}
+.modal-dialog.animate
+{
+	transform: scale(1);
+	transition: transform 1s;
 }
