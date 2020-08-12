@@ -1287,6 +1287,9 @@ p.address
 {
 	display: none !important;
 }
+.navigation-wrap
+{
+}
 }
 
 .close-modal
@@ -1369,4 +1372,18 @@ p.address
 .modal-header
 {
 	border-bottom: none;
+}
+.navbar-toggler
+{
+	position: relative;
+	top: -5px;
+}
+.modal-dialog
+{
+	transition: opacity 3s;
+	opacity: 1 !important;
+}
+.modal
+{
+	background: rgba(236,244,252,0.9);
 }
