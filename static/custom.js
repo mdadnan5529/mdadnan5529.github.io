@@ -13,8 +13,11 @@ function disableScroll() {
 function enableScroll() { 
     window.onscroll = function() {}; 
 } 
-
-
+function wait(t)
+{
+  setTimeout(function(){console.log();}, t);
+}
+//wait(5000);
   $(document).ready(function()
   {
 
@@ -24,7 +27,10 @@ function enableScroll() {
                      {
   console.log("dkkdf");
   $("#modal1").show();
-  disableScroll();
+  if($("body").width()>500)
+    {disableScroll();}
+      $(".modal-dialog").addClass("animate");
+
 
 }
                      );
@@ -33,6 +39,8 @@ function enableScroll() {
   console.log("dkkdf2");
   $("#modal2").show();
   disableScroll();
+    $(".modal-dialog").addClass("animate");
+
 }
                      );
   	 	 	 $("#expand_card3").on('click',function()
@@ -40,13 +48,19 @@ function enableScroll() {
   console.log("dkkdf3");
   $("#modal3").show();
   disableScroll();
+    $(".modal-dialog").addClass("animate");
+
 }
                      );
   	  $(".close-modal").on('click',function()
                      {
   console.log("dkkdf");
+   wait(2000);
+   $(".modal-dialog").removeClass("animate");
   $(".modal").hide();
   enableScroll();
+   
+
 }
                      );
   	  $(".nav-item").on('click',function()
