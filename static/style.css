@@ -929,6 +929,7 @@ Copied Style
         width: 100%;
         max-width: 100%;
         display: block;
+        max-height: 50vh;
     }
 
 .card__content {
@@ -1002,7 +1003,7 @@ Copied Style
 .share-toggle {
     z-index: 2;
 }
-.share-toggle:before {
+/*.share-toggle:before {
     content: "\f0c1";
     font-family: 'FontAwesome';
     color: #3498db;
@@ -1010,7 +1011,7 @@ Copied Style
     .share-toggle.share-expanded:before {
         content: "\f00d";
     }
-
+*/
 .share-icon {
     display: inline-block;
     width: 48px;
@@ -1062,7 +1063,7 @@ Copied Style
     }
 
 #share {
-    transform: rotate(135Deg);
+    /*transform: rotate(135Deg);*/
     text-decoration: unset;
 }
 #Whatsapp_icon {
@@ -1295,8 +1296,77 @@ p.address
 .modal-dialog 
 {
     pointer-events: auto;
-    max-width: 80vw;
+    max-width: 60vw;
     height:60vh; 
-    background: gray;
-    top: 15%;
+    background: linear-gradient(90deg, rgba(124,226,201,1) 0%, rgba(225,253,255,1) 50%);
+    top: 5.5%;
+    /*border: whitesmoke 1px solid;
+    border-width: thin;*/
+}
+.modal-content .card__image
+{
+    width: 100vw;
+    align-self: center;	
+}
+.modal-header
+{
+	padding: 5px 0px 5px 10px;
+}
+.card__share button
+{
+	all:unset;
+}
+.modal-header h2
+{
+	font-size: 1.5rem;
+	margin-bottom: 0;
+}
+.close-modal 
+{
+    background: transparent;
+    border:none;
+}
+.modal-header a {
+    color: #444;
+}
+#Project-type {
+    padding: 0;
+    margin: 5px;
+}
+#popup-time {
+    margin-left: 5px;
+}
+#Project-intro {
+    margin-left: 5px;
+}
+.Project-intro
+{
+	display: flex;
+	margin-bottom: 5%;
+	margin-top: 2%;
+}
+.description {
+    width: 50%;
+}
+.Project-desc {
+    display: flex;
+    padding: 2%;
+}
+.description h6,.Technology-used h6
+{
+	text-align: center;
+	color: #2972a6;
+}
+.Technology-used,.description
+{
+	padding: 0% 2%;
+}
+.modal-content
+{
+	border-top: none;
+	border-radius: 0;
+}
+.modal-header
+{
+	border-bottom: none;
 }
