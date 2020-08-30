@@ -1413,3 +1413,7 @@ p.address
 	transform: scale(1);
 	transition: transform 1s;
 }
+#project-link {
+    color: #2572a4;
+    font-size: 18px;
+}
