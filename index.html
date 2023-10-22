@@ -1,618 +1,949 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Jackson Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
 
-    <!-- Bootstrap CSS -->
-     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="./static/style.css">
-   	<script type="text/javascript" src="./static/custom.js"></script>
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-    <title>Md </title>
-  </head>
-  <body>
-  	<div class="loader">
-  		  <div class="wrapper">
-         <div id="loader" class="background">
-         		<span href="#" class="my_image" id="loader-image">
-						<img src="static/images/johndoe.png" alt="" id="my-image">
-				</span>
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
 
-        <div class="dots container">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        </div>    </div>
-  	</div>
-  	
-  	<div class="navigation-wrap bg-light start-header start-style">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<nav class="navbar navbar-expand-md navbar-light">
-					
-					<!--<a class="navbar-brand" href="https://themeforest.net/user/ig_design/portfolio" target="_blank">
-							<img src="./static/images/logo.png" alt="logo">
-						</a>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
+				<h1 id="colorlib-logo"><a href="index.html">Mohammad Adnan</a></h1>
+				<span class="position"><a href="#">Software Developer </a></br>Transitioning to Cybersecurity.</span>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
+						<li><a href="#" data-nav-section="about">About</a></li>
+						<li><a href="#" data-nav-section="experience">Experience</a></li>
+						<li><a href="#" data-nav-section="services">Certifications</a></li>
+						<li><a href="#" data-nav-section="skills">Skills</a></li>
+						<li><a href="#" data-nav-section="education">Education</a></li>
+						<li><a href="#" data-nav-section="work">Work</a></li>
+						<li><a href="#" data-nav-section="blog">Blog</a></li>
+						<li><a href="#" data-nav-section="contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+
+			<div class="colorlib-footer">
+				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright <script>document.write(new Date().getFullYear());</script> All rights reserved. Made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> <span>Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a></span> <span>Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash.com</a></span></small></p>
+				<ul>
+					<li><a href="#"><i class="icon-facebook2"></i></a></li>
+					<li><a href="#"><i class="icon-twitter2"></i></a></li>
+					<li><a href="#"><i class="icon-instagram"></i></a></li>
+					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+				</ul>
+			</div>
+
+		</aside>
+
+		<div id="colorlib-main">
+			<section id="colorlib-hero" class="js-fullheight" data-section="home">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+				   	<li style="background-image: url(images/img_bg_1.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner js-fullheight">
+					   					<div class="desc">
+						   					<h1>Hi! <br>I'm Adnan</h1>
+						   					<h2>Transforming code into protection, I'm on a mission to safeguard the digital world as a dedicated cybersecurity enthusiast. </h2>
+												<p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				  	</ul>
+			  	</div>
+			</section>
+
+			<section class="colorlib-about" data-section="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">About me</span>
+										<h2 class="colorlib-heading">Who Am I?</h2>
+										<p><strong>Hi I'm Mohammad Adnan</strong> </br>With a solid foundation as a Senior Software Developer at TechMojo Solutions and prior experience at Amdocs, I am embarking on a dynamic transition into the world of cybersecurity, driven by my unwavering passion for safeguarding digital assets. At TechMojo Solutions, I spearheaded backend development for a sports betting platform catering to over 2 million users. I also significantly enhanced security measures by setting up ELK for log monitoring and utilizing it as an SIEM tool, resulting in a 70% improvement in security incident detection. My keen eye for vulnerabilities led to the identification and resolution of a critical SQL injection threat, reducing the risk of injection vulnerabilities by 40%. Moreover, I crafted a secure API with robust user authentication to mitigate the risk of Broken Access Control by 70%.</p>
+										<p>During my tenure at Amdocs, I honed my problem-solving skills, developing and enhancing numerous APIs using Spring MVC and ensuring the efficient runtime performance of scalable microservices. I have a strong foundation in Agile methodologies, collaborating with cross-functional teams to meet deadlines and uphold high code quality standards throughout the Software Development Life Cycle. This experience has equipped me with a unique blend of development expertise and a proactive approach to cybersecurity, making me a valuable asset in securing digital ecosystems.
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+									<div class="services color-1">
+										<span class="icon2"><i class="icon-bulb"></i></span>
+										<h3>Cybersecurity Enhancement</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+									<div class="services color-2">
+										<span class="icon2"><i class="icon-globe-outline"></i></span>
+										<h3>Vulnerability Identification</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
+									<div class="services color-3">
+										<span class="icon2"><i class="icon-data"></i></span>
+										<h3>Secure API Development</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+									<div class="services color-4">
+										<span class="icon2"><i class="icon-phone3"></i></span>
+										<h3>Application Security</h3>
+									</div>
+								</div>
+							</div>
+					<!---		<div class="row">
+								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+									<div class="hire">
+										<h2>I am happy to know you <br>that 300+ projects done sucessfully!</h2>
+										<a href="#" class="btn-hire">Hire me</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						---->
+					</div>
+				</div>
+			</section>
+
+
+			<section class="colorlib-experience" data-section="experience">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Experience</span>
+							<h2 class="colorlib-heading animate-box">Work Experience</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2><a href="#">Senior Software Developer</a> <span>June 2022 - Current</span></h2>
+					                  <p>
+										• Led backend developmentfor a sports betting platform serving 2+ million users</br>
+										• Setup log monitoring tool ELK to reduce debugging time by 40% and created metrics and dashboard to use ELK as SIEM tool which has improve detection of Security incident by 70%.</br>
+										• Identified and resolved a critical SQL injection vulnerability, bolstering platform security and reduced risk of Injection Vulnerability by 40%.</br>
+										• Created a secure API enabling traders to modify events with robust user authentication to reduce risk of Broken Access Control by 70%. </br>
+									  </p>
+					               </div>
+					            </div>
+					         </article>
+
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Software Developer at Amdocs</a> <span>Sep 2020 - May 2022</span></h2>
+					                  <p>
+										• Solved complex business problems by developing and/or Enhancing 10+ APIs using Spring MVC for Operation Support System.</br>
+										• Improved runtime efficiency through the development of scalable microservices. </br>
+										• Collaborated in agile teams to meet deadlines and maintain high code quality standards. </br>
+										• Engaged in various phases of the Software Development Life Cycle, including development, debugging, unit testing, and code reviews, ensuring timely delivery and code excellence. </br>
+									  </p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <!--<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-3">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">System Analyst</a> <span>2017-2018</span></h2>
+					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               </div>
+					            </div>
+					         </article>
+							-->
+							<!--
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-4">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Creative Designer</a> <span>2017-2018</span></h2>
+					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               </div>
+					            </div>
+					         </article>
+							-->
+							<!--
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-5">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">UI/UX Designer at Envato</a> <span>2017-2018</span></h2>
+					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               </div>
+					            </div>
+					         </article>
+							 -->
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+			</section>
+
+			
+			<section class="colorlib-services" data-section="services">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">What I have achieved ?</span>
+							<h2 class="colorlib-heading">Here are some of my certifications showcasing my expertise:</h2>
+						</div>
+					</div>
+					<div class="row row-pt-md">
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-1">
+								<span class="icon">
+									<i class="icon-bulb"></i>
+								</span>
+								<div class="desc">
+									<h3>Google</h3>
+									<p>
+										Google Cybersecurity Professional </br>
+										Sept 2023 </br>
+										<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/NQZTKQJSY89B" >Verify</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-2">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<h3>Simplilearn</h3>
+									<p>
+										Introduction to Cloud Security</br>
+										Sept 2023 </br>
+										<a href="https://simpli-web.app.link/e/4f2ArxwOlDb" >Verify</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-3">
+								<span class="icon">
+									<i class="icon-phone3"></i>
+								</span>
+								<div class="desc">
+									<h3>EC-Council</h3>
+									<p>
+										Ethical Hacking Essentials(EHE)</br>
+										Sept 2023 </br>
+										<a href="https://codered.eccouncil.org/certificate/7d1d242b-8124-47af-807a-1a4125d598f7" >Verify</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-4">
+								<span class="icon">
+									<i class="icon-layers2"></i>
+								</span>
+								<div class="desc">
+									<h3>Udemy</h3>
+									<p>
+										Secure Coding in Java Web Application</br>
+										Sept 2023 </br>
+										<a href="https://www.udemy.com/certificate/UC-34cdc57b-4980-4f02-972c-51638dac9f75/" >Verify</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-5">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<h3>Udemy</h3>
+									<p>
+										Full Ethical Hacking Course </br>
+									</br>
+										Sept 2023 </br>
+										<a href="https://codered.eccouncil.org/certificate/7d1d242b-8124-47af-807a-1a4125d598f7" >Verify</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<!--
+							<div class="col-md-4 text-center animate-box">
+							<div class="services color-6">
+								<span class="icon">
+									<i class="icon-phone3"></i>
+								</span>
+								<div class="desc">
+									<h3>Application</h3>
+									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+								</div>
+							</div>
+						</div>
 					-->
-					<a href="index.html" id="logo-text">
-						<h2 class="logo-text">MD ADNAN</h2>
-					</a>
-						
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-						
-						<div class="collapse navbar-collapse" id="navbarSupportedContent">
-							<ul class="navbar-nav ml-auto py-4 py-md-0">
-								
-								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link" href="#">Home</a>
-								</li>
-								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link" href="#portfolio">Portfolio</a>
-								</li>
-								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link" href="#Project">Projects</a>
-								</li>
-								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link" href="#Skill">Skills</a>
-								</li>
-								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link" href="#footer">Contact</a>
-								</li>
+					</div>
+				</div>
+			</section>
+			
+			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
+				<div class="overlay"></div>
+				<div class="colorlib-narrow-content">
+					<div class="row">
+					</div>
+					<div class="row">
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="309" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Cups of coffee</span>
+						</div>
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="356" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Projects</span>
+						</div>
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="30" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Clients</span>
+						</div>
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Partners</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<section class="colorlib-skills" data-section="skills">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">My Specialty</span>
+							<h2 class="colorlib-heading animate-box">My Skills</h2>
+						</div>
+					</div>
+					<!--<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<p>I am a versatile developer with proficiency in a variety of programming languages, including Java, Golang, Python, C, and C++. My expertise extends to database management through SQL, ensuring secure REST APIs, and cloud security. I am well-versed in containerization with Docker and Kubernetes, adept at debugging, and skilled in authentication, authorization, vulnerability management, and assessment. My tech stack includes Spring MVC and Security, NIST RMF, and CSF, SIEM, intrusion detection and prevention, application security (OWASP Top 10), and ELK. I also have hands-on experience with tools like Metasploit, Burp Suite, IntelliJ, VS Code, and Splunk.</p>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Photoshop</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
+								    <span>75%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>jQuery</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
+								    <span>60%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>HTML5</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
+								    <span>85%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>CSS3</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+								    <span>90%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>WordPress</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>SEO</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								    <span>80%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+					
+					</div> 
+				-->
+				<div class="row">
+					<div class="col-md-5">
+						<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+							<h3>Programming</h3>
+								<h4>Languages</h4>
+							<ul>
+								<li>Java</li>
+								<li>Golang</li>
+								<li>Python</li>
+								<li>C, C++</li>
+								<li>SQL</li>
+							</ul>
+
+							<h4>Other</h4>
+							<ul>
+								<li>Linux</li>
+								<li>REST APIs</li>
+								<li>Cloud Security</li>
+								<li>Docker & Kubernetes</li>
+								<li>Debugging</li>
+								<li>Authentication and Authorization</li>
+								<li>Vulnerability Management and Assessment</li>
 							</ul>
 						</div>
-						
-					</nav>		
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="content-body"> 
-	<div class="contetn-wrapper">
-	<div class="section full-height">
-		<div class="absolute-center">
-			<div class="section">
-				<div class="container" id="portfolio">
-					<div class="row personal-details" id="Website_Identification">
-						<a href="#" class="my_image">
-						<img src="static/images/johndoe.png" alt="personal-image" id="my-image">
-						</a>
-						<h1 id="myname">MD ADNAN</h1>
-						<h4 id="Welcome_text">Graduate in IT from BIT Mesra,Ranchi</h4>
-						<div class="col-md-6 col-lg-7 text-center text-md-right">
-							<!-- Facebook -->
-							<a class="fb-ic" href="https://www.facebook.com/profile.php?id=100008159140071">
-								<i class="fa fa-facebook-f white-text mr-4"> </i>
-							</a>
-							<!-- Twitter -->
-							<a class="tw-ic" href="https://www.twitter.com/mdadnan5529">
-								<i class="fa fa-twitter white-text mr-4"> </i>
-							</a>
-							<!-- Google +--><a class="gplus-ic"  href="https://www.github.com/mdadnan5529">
-								<i class="fa fa-github white-text mr-4"> </i>
-							</a>
-							<!--Linkedin -->
-							<a class="li-ic" href="https://www.linkedin.com/mdadnan5529">
-								<i class="fa fa-linkedin white-text mr-4"> </i>
-							</a>
-							<!--Instagram-->
-							<a class="ins-ic" href="https://www.instagram.com/mdadnan5529">
-								<i class="fa fa-instagram white-text"> </i>
-							</a>
-						</div>
-						<div class="about-me">
-							<h5>About Me</h5>
-							<p>
-								Hi ,I am Adnan.I have graduated from Birla Institute of Technology,Mesra.
-                I am a Passionate developer who loves coding,UI/UX Design and Ethical hacking.
-                <br>
-                <br>
-                Apart from this I love listening to music and watching movies and TV Series.
-							</p>
-						</div>
-					</div>		
-				</div>		
-			</div>
-			<div class="section mt-5">
-				<div class="container">
-					<div class="row" id="theme-switch">
-						<div class="col-12">
-							<div id="switch">
-								<div id="circle"></div>
+					</div>
+					<div class="col-md-7 col-md-push-1">
+						<div class="row">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<h3>Tech Stack</h3>
+									<h4>Frameworks</h4>
+								<ul>
+									<li>Spring MVC and Security</li>
+									<li>NIST RMF and CSF</li>
+									<li>SIEM</li>
+									<li>Intrusion Detection and Prevention</li>
+									<li>Application Security and OWASP Top 10</li>
+									<li>ELK</li>
+								</ul>
+	
+								<h4>Tools</h4>
+								<ul>
+									<li>Metasploit</li>
+									<li>Burp Suite</li>
+									<li>IntelliJ</li>
+									<li>VS Code</li>
+									<li>Splunk</li>
+								</ul>
 							</div>
-						</div>	
-					</div>		
-				</div>			
-			</div>
-		</div>
-	</div>
-		<div class="container-fluid Projects" id="Project">
-			<h3 class="Projects title">Projects and Interships</h3>
-
-<div class="Projects-card"> 
-
-<div class="wrapper">
-            
-            <div class="card radius shadowDepth1">
-                <div class="card__image border-tlr-radius">
-                    <img src="static/images/portfolio.jpg" alt="image" class="border-tlr-radius">
-                </div>
-
-                <div class="card__content card__padding">
-                    <div class="card__share">
-                        <div class="card__social">  
-                            <a class="share-icon facebook" href="#"><span class="fa fa-facebook"></span></a>
-                            <a class="share-icon twitter" href="#"><span class="fa fa-twitter"></span></a>
-                            <a class="share-icon googleplus" href="#"><span class="fa fa-google-plus"></span></a>
-                        </div>
-
-                        <button id="expand_card"><a id="share" class="share-toggle share-icon">
-                          <i class="fa fa-plus" aria-hidden="true"></i>
-                        </a>
-                        </button>
-                    </div>
-
-                    <div class="card__meta">
-                        <a href="#">Web Design</a>
-                        <time>June 20-</time>
-                    </div>
-
-                    <article class="card__article">
-                        <h2><a href="#">PortFolio Website</a></h2>
-
-                        <p>A Single Page site to Show my Skills Qualification and Work.</p>
-                    </article>
-                </div>
-
-                <div class="card__action">
-                    
-                    <div class="card__author">
-                    </div>
-                </div>
-            </div>
-            <div class="modal" id="modal1">
-  <div class="modal-dialog">
-    <header class="modal-header">
-      <h2><a href="#">PortFolio Website</a></h2>
-      <button class="close-modal" aria-label="close modal" data-close>✕</button>
-    </header>
-     
-    <section class="modal-content">
-      <div class="Project-intro">
-       <div class="card__image border-tlr-radius">
-                    <img src="static/images/portfolio.jpg" alt="image" class="border-tlr-radius">
-                </div>
-                <div class="card__content card__padding">
-                    <div class="card__share">
-                        <div class="card__social">  
-                            <a class="share-icon facebook" href="#"><span class="fa fa-facebook"></span></a>
-                            <a class="share-icon twitter" href="#"><span class="fa fa-twitter"></span></a>
-                            <a class="share-icon googleplus" href="#"><span class="fa fa-google-plus"></span></a>
-                        </div>
-
-                      <!--  <a id="share" class="share-toggle share-icon"></a>-->
-                    </div>
-
-                    <div class="card__meta">
-                        <p id="Project-type">Type : Web Design</p>
-                        <time id="popup-time">Date: June 20-</time>
-                    </div>
-
-                    <article class="card__article">
-                       <!-- <h2><a href="#">PortFolio Website</a></h2>-->
-
-                        <p id="Project-intro">Intro:A Single Page site to Show my Skills Qualification and Work.
-                          <br>Link:<a id="project-link" href="www.google.com">Click Here</a>
-                        </p>
-                    </article>
-                </div>
-              </div>
-              <div class="Project-desc">
-                <span class="description">
-                  <h6>Description</h6>
-                  <div id="Project-desc">
-                    <ul>
-                    <li>A single Page Website to show my skills and Qualifications.</li>
-                    <li>Build the website from scratch with design inspirations from various open source sites.</li>
-                    <li>Used Github Pages for hosting.</li>
-                  </ul>
-                  </div>
-                </span>
-                <span class="Technology-used">
-                  <h6>Technologies and Languages Used</h6>
-                    <ul class="skills-list">
-            <li id="skills-list-item">HTML,CSS,Bootstrap</li>
-            <li id="skills-list-item">Jquery</li>
-            <li id="skills-list-item">Github Pages</li>
-          </ul>
-
-                </span>
-              </div>
-              </section>
-    <footer class="modal-footer">...</footer>
-  </div>
-</div>
-        </div>
+						</div>
+					</div>
+				</div>
 
 
-
-<div class="wrapper">
-            
-            <div class="card radius shadowDepth1">
-                <div class="card__image border-tlr-radius">
-                    <img src="static/images/titanic.jpg" alt="image" class="border-tlr-radius">
-                </div>
-
-                <div class="card__content card__padding">
-                    <div class="card__share">
-                        <div class="card__social">  
-                            <a class="share-icon facebook" href="#"><span class="fa fa-facebook"></span></a>
-                            <a class="share-icon twitter" href="#"><span class="fa fa-twitter"></span></a>
-                            <a class="share-icon googleplus" href="#"><span class="fa fa-google-plus"></span></a>
-                        </div>
-
-                       <button id="expand_card2"> <a id="share" class="share-toggle share-icon">
-                         <i class="fa fa-plus" aria-hidden="true"></i>
-                       </a></button>
-                    </div>
-
-                    <div class="card__meta">
-                        <a href="#">Machine Learning</a>
-                        <time>May 19</time>
-                    </div>
-
-                    <article class="card__article">
-                        <h2><a href="#">Survival Prediction Using ML</a></h2>
-
-                        <p>Used Machine Learning Tools to Predict People Likely to Survive.</p>
-                    </article>
-                </div>
-
-                <div class="card__action">
-                    
-                    <div class="card__author">
-                    	
-                    </div>
-                </div>
-            </div>
-                      <div class="modal" id="modal2">
-  <div class="modal-dialog">
-    <header class="modal-header">
-      <h2><a href="#">Survival Prediction Using ML</a></h2>
-      <button class="close-modal" aria-label="close modal" data-close>✕</button>
-    </header>
-      
-   <section class="modal-content">
-      <div class="Project-intro">
-       <div class="card__image border-tlr-radius">
-                    <img src="static/images/titanic.jpg" alt="image" class="border-tlr-radius">
-                </div>
-                <div class="card__content card__padding">
-                    <div class="card__share">
-                        <div class="card__social">  
-                            <a class="share-icon facebook" href="#"><span class="fa fa-facebook"></span></a>
-                            <a class="share-icon twitter" href="#"><span class="fa fa-twitter"></span></a>
-                            <a class="share-icon googleplus" href="#"><span class="fa fa-google-plus"></span></a>
-                        </div>
-
-                      <!--  <a id="share" class="share-toggle share-icon"></a>-->
-                    </div>
-
-                    <div class="card__meta">
-                        <p id="Project-type">Type : Machine Learning</p>
-                        <time id="popup-time">Date: May 19</time>
-                    </div>
-
-                    <article class="card__article">
-                       <!-- <h2><a href="#">PortFolio Website</a></h2>-->
-
-                        <p id="Project-intro">Used Machine Learning Tools to Predict People Likely to Survive.
-                           <br>Link:<a id="project-link" href="www.google.com">Click Here</a>
-                        </p>
-                    </article>
-                </div>
-              </div>
-              <div class="Project-desc">
-                <span class="description">
-                  <h6>Description</h6>
-                  <p id="Project-desc">
-                   Used Machine Learning Tools to Predict People Likely to Survive.
-                   Used Machine Learning Tools to Predict People Likely to Survive.
-                   Used Machine Learning Tools to Predict People Likely to Survive.
-                   Used Machine Learning Tools to Predict People Likely to Survive.
-                  </p>
-                </span>
-                <span class="Technology-used">
-                  <h6>Technologies and Languages Used</h6>
-                    <ul class="skills-list">
-            <li id="skills-list-item">C,C++</li>
-            <li id="skills-list-item">HTML,CSS,Bootstrap</li>
-            <li id="skills-list-item">Python</li>
-            <li id="skills-list-item">Machine Learning</li>
-            <li id="skills-list-item">Linux</li>
-            <li id="skills-list-item">DBMS</li>
-          </ul>
-
-                </span>
-              </div>
-              </section>
-    <footer class="modal-footer">...</footer>
-  </div>
-</div>
-        </div>
-
-
-
-
-<div class="wrapper">
-            
-            <div class="card radius shadowDepth1">
-                <div class="card__image border-tlr-radius">
-                    <img src="static/images/frontend.jpg" alt="image" class="border-tlr-radius">
-                </div>
-
-                <div class="card__content card__padding">
-                    <div class="card__share">
-                        <div class="card__social">  
-                            <a class="share-icon facebook" href="#"><span class="fa fa-facebook"></span></a>
-                            <a class="share-icon twitter" href="#"><span class="fa fa-twitter"></span></a>
-                            <a class="share-icon googleplus" href="#"><span class="fa fa-google-plus"></span></a>
-                        </div>
-
-                      <button id="expand_card3">  <a id="share" class="share-toggle share-icon">
-                        <i class="fa fa-plus" aria-hidden="true"></i>
-                      </a></button>
-                    </div>
-
-                    <div class="card__meta">
-                        <a href="#">Web Design</a>
-                        <time>Dec 19-Jun 20</time>
-                    </div>
-
-                    <article class="card__article">
-                        <h2><a href="#">Frontend Intern</a></h2>
-
-                        <p>Build Frontend for LMS of a Financial Education Firm.</p>
-                    </article>
-                </div>
-
-                <div class="card__action">
-                    
-                    <div class="card__author">
-                        
-                    </div>
-                </div>
-            </div>
-                      <div class="modal" id="modal3">
-  <div class="modal-dialog">
-    <header class="modal-header">
-      <h2><a href="#">Frontend Intern</a></h2>
-      <button class="close-modal" aria-label="close modal" data-close>✕</button>
-    </header>
-
-   <section class="modal-content">
-      <div class="Project-intro">
-       <div class="card__image border-tlr-radius">
-                    <img src="static/images/frontend.jpg" alt="image" class="border-tlr-radius">
-                </div>
-                <div class="card__content card__padding">
-                    <div class="card__share">
-                        <div class="card__social">  
-                            <a class="share-icon facebook" href="#"><span class="fa fa-facebook"></span></a>
-                            <a class="share-icon twitter" href="#"><span class="fa fa-twitter"></span></a>
-                            <a class="share-icon googleplus" href="#"><span class="fa fa-google-plus"></span></a>
-                        </div>
-
-                      <!--  <a id="share" class="share-toggle share-icon"></a>-->
-                    </div>
-
-                    <div class="card__meta">
-                        <p id="Project-type">Type : Web Design</p>
-                        <time id="popup-time">Date: Dec 19- Jun 20</time>
-                    </div>
-
-                    <article class="card__article">
-                       <!-- <h2><a href="#">PortFolio Website</a></h2>-->
-
-                        <p id="Project-intro">Build Frontend for LMS of a Financial Education Firm.
-                           <br>Link:<a id="project-link" href="www.google.com">Click Here</a>
-                        </p>
-                    </article>
-                </div>
-              </div>
-              <div class="Project-desc">
-                <span class="description">
-                  <h6>Description</h6>
-                  <p id="Project-desc">
-                 Build Frontend for LMS of a Financial Education Firm.
-                 Build Frontend for LMS of a Financial Education Firm.
-                 Build Frontend for LMS of a Financial Education Firm.
-                 Build Frontend for LMS of a Financial Education Firm.
-                  </p>
-                </span>
-                <span class="Technology-used">
-                  <h6>Technologies and Languages Used</h6>
-                    <ul class="skills-list">
-            <li id="skills-list-item">C,C++</li>
-            <li id="skills-list-item">HTML,CSS,Bootstrap</li>
-            <li id="skills-list-item">Python</li>
-            <li id="skills-list-item">Machine Learning</li>
-            <li id="skills-list-item">Linux</li>
-            <li id="skills-list-item">DBMS</li>
-          </ul>
-
-                </span>
-              </div>
-              </section>
-    <footer class="modal-footer">...</footer>
-  </div>
-</div>
-        </div>
-</div>
-<div class="technical-skills" id="Skill">
-		<!--<h3 class="skills title">Skills </h3>-->
-		<div class="container "> 
-			<div class="row"> 
-				<div class="col skills">
-					<h3 id="skills">Skills</h3>
-					<ul class="skills-list">
-						<li id="skills-list-item">C,C++</li>
-						<li id="skills-list-item">HTML,CSS,Bootstrap</li>
-						<li id="skills-list-item">Python</li>
-						<li id="skills-list-item">Machine Learning</li>
-						<li id="skills-list-item">Linux</li>
-						<li id="skills-list-item">DBMS</li>
-					</ul>
 
 				</div>
-				<div class="col achievements">
-					<h3 id="achievements">Achievements</h3>
-						<ul class="achievements-list">
-						<li id="achievements-list-item">GATE Qualified 2020</li>
-						<li id="achievements-list-item">7th Rank in State in 12 Board</li>
-						<li id="achievements-list-item">School Topper in 10 Board</li>
-					</ul>
+			</section>
+
+			<section class="colorlib-education" data-section="education">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Education</span>
+							<h2 class="colorlib-heading animate-box">Education</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingOne">
+									        <h4 class="panel-title">
+									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Bachelor of Engineering 
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+									         <div class="panel-body">
+									            <div class="row">
+										      		<div class="col-md-6">
+										      			<p>
+															Institue : Birla Institue of Technology , Mesra </br>
+															Duration : 2016 - 2020
+														</p>
+										      		</div>
+										      		<div class="col-md-6">
+										      			<p>
+															Major : Information Technology </br>
+															GPA : 7.91
+														</p>
+										      		</div>
+										      	</div>
+									         </div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingOne">
+									        <h4 class="panel-title">
+									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Intermediate 
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+									         <div class="panel-body">
+									            <div class="row">
+										      		<div class="col-md-6">
+										      			<p>
+															Institue : St. Xavier's Inter College , Lupungutu Chaibasa </br>
+															Duration : 2014 - 2016
+														</p>
+										      		</div>
+										      		<div class="col-md-6">
+										      			<p>
+															Major : Science </br>
+															Percentage : 87.00% (7th Rank in State)
+														</p>
+										      		</div>
+										      	</div>
+									         </div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingOne">
+									        <h4 class="panel-title">
+									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Matriculation
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+									         <div class="panel-body">
+									            <div class="row">
+										      		<div class="col-md-6">
+										      			<p>
+															Institue : St. Xavier's High School Lupungutu Chaibasa </br>
+															Duration : 2014
+														</p>
+										      		</div>
+										      		<div class="col-md-6">
+										      			<p>
+															Major : General  </br>
+															GPA : 87.60%
+														</p>
+										      		</div>
+										      	</div>
+									         </div>
+									    </div>
+									</div>
+									<!--
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Intermediate 
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+									        <div class="panel-body">
+									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+													<ul>
+														<li>Separated they live in Bookmarksgrove right</li>
+														<li>Separated they live in Bookmarksgrove right</li>
+													</ul>
+									        </div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingThree">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Diploma in Information Technology
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									        <div class="panel-body">
+									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
+									        </div>
+									    </div>
+									</div>
+
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingFour">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Diploma in Information Technology
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+									        <div class="panel-body">
+									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
+									        </div>
+									    </div>
+									</div>
+
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingFive">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">High School Secondary Education
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+									        <div class="panel-body">
+									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
+									        </div>
+									    </div>
+									</div>
+								-->
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
-	</div>
-			
-		</div>
+			</section>
+
+			<!--
+				<section class="colorlib-work" data-section="work">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">My Work</span>
+							<h2 class="colorlib-heading animate-box">Recent Work</h2>
+						</div>
+					</div>
+					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+						<div class="col-md-12">
+							<p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(images/img-1.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Work 01</a></h3>
+										<span>Website</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/img-2.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Work 02</a></h3>
+										<span>Animation</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+							<div class="project" style="background-image: url(images/img-3.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Work 03</a></h3>
+										<span>Illustration</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+							<div class="project" style="background-image: url(images/img-4.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Work 04</a></h3>
+										<span>Application</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(images/img-5.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Work 05</a></h3>
+										<span>Graphic, Logo</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/img-6.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Work 06</a></h3>
+										<span>Web Design</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box">
+							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+		-->
+
+		<!--
+			<section class="colorlib-blog" data-section="blog">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Read</span>
+							<h2 class="colorlib-heading">Recent Blog</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="blog.html">Renovating National Gallery</a></h3>
+									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="blog-entry">
+								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
+									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="blog.html" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="blog.html">Make website from scratch</a></h3>
+									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box">
+							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+			-->
+
+			<section class="colorlib-contact" data-section="contact">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Get in Touch</span>
+							<h2 class="colorlib-heading">Contact</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-globe-outline"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="#">mdadnan5336@gmail.com</a></p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-map"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>Hyderabad India</p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-phone"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="tel://">+91 7903925317</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-7 col-md-push-1">
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
+									<ul>
+										<a class="btn btn-primary" style="background-color: #55acee;" href="#!" role="button">
+											<i class="fab fa-twitter me-2"></i>Twitter</a>
+										</br>
+										</br>
+										<a class="btn btn-primary" style="background-color: #55acee;" href="#!" role="button">
+											<i class="fab fa-twitter me-2"></i>LinkedIn</a>
+										</br>
+										</br>
+										<a class="btn btn-primary" style="background-color: #55acee;" href="#!" role="button">
+											<i class="fab fa-twitter me-2"></i>Github</a>
+										</br>
+										</br>
+										<a class="btn btn-primary" style="background-color: #55acee;" href="#!" role="button">
+											<i class="fab fa-twitter me-2"></i>picoCTF</a>
+										</br>
+									</ul>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div><!-- end:colorlib-main -->
+	</div><!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
 	
 	
-	</div>
-	<div class="my-5 py-5" style="display: none;">
-<p> Logo and other assests are just for demo purpose and registered trademark.No copyright claim intended.</p>
-	</div>
-	<div style="height: 200px;margin-bottom: 5%;margin-top: 5%;background: whitesmoke;display: none;"></div>
-	<!-- Footer -->
-<footer class="page-footer font-small blue-grey lighten-5" id="footer">
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
 
-  <div style="background-color: #ecebeb;">
-    <div class="container-fluid social-footer">
-
-      <!-- Grid row-->
-      <div class="row py-4 d-flex align-items-center">
-
-        <!-- Grid column -->
-        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-          <h6 class="mb-0">Get connected with me on WhatsApp!</h6>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-6 col-lg-7 text-center text-md-right">
-
-          <!-- Facebook -->
-        <div class="icon_whatsapp">
-    <a href="https://api.whatsapp.com/send?phone=917903925317&amp;text=I%20%20have %20seen %20your%20Website.%20Need %20to%20contact %20you%3F">
-        <span id="Whatsapp_icon"><i class="fa fa-whatsapp" aria-hidden="true"></i></span>
-    </a>
-</div>
-
-        </div>
-        <!-- Grid column -->
-
-      </div>
-      <!-- Grid row-->
-
-    </div>
-  </div>
-
-  <!-- Footer Links -->
-  <div class="mid-footer">
-  <div class="container text-center text-md-left mt-5">
-
-    <!-- Grid row -->
-    <div class="row mt-3 dark-grey-text">
-
-      <!-- Grid column -->
-      <div class="col-md-3 col-lg-4 col-xl-3 mb-4 my-intro">
-
-        <!-- Content -->
-        <!--<h6 class="text-uppercase font-weight-bold">Company name</h6>-->
-        <a href="index.html" id="logo-text">
-						<h2 class="logo-text" id="footer-logo">MD ADNAN</h2>
-	    </a>
-	    <p class="address">
-	    	Ramzan Colony KaantaToli <br>
-	    	Ranchi Jharkhand 834001
-	    </p>
-      </div>
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 social-foot">
-
-        <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold social-connect">Connect With Me on </h6>
-
-							<!-- Facebook -->
-							<a class="fb-ic" href="https://www.facebook.com/profile.php?id=100008159140071">
-								<i class="fa fa-facebook-f white-text mr-4"> </i>
-							</a>
-							<!-- Twitter -->
-							<a class="tw-ic" href="https://www.twitter.com/mdadnan5529">
-								<i class="fa fa-twitter white-text mr-4"> </i>
-							</a>
-							<!-- Google +--><a class="gplus-ic" href="https://www.github.com/mdadnan5529">
-								<i class="fa fa-github white-text mr-4"> </i>
-							</a>
-							<!--Linkedin -->
-							<a class="li-ic" href="https://www.linkedin.com/mdadnan5529">
-								<i class="fa fa-linkedin white-text mr-4"> </i>
-							</a>
-							<!--Instagram-->
-							<a class="ins-ic" href="https://www.instagram.com/mdadnan5529">
-								<i class="fa fa-instagram white-text"> </i>
-							</a>
-						
-
-      </div>
-
-      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 contact-details">
-
-        <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold">Contact</h6>
-        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>
-          <a href="mailto:mdadnan10035@gmail.com"><i class="fa fa-envelope mr-3"></i>mdadnan10035@gmail.com</a></p>
-        <p>
-          <i class="fa fa-phone mr-3"></i> + 91 7903 925 317</p>
-        <p>
-          <i class="fa fa-phone mr-3"></i> + 91 8434 238 097</p>
-
-      </div>
-      <!-- Grid column -->
-
-    </div>
-    <!-- Grid row -->
-
-  </div>
-</div>
-  <!-- Footer Links -->
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center text-black-50 py-3">
-  </div>
-  <!-- Copyright -->
-
-</footer>
-<!-- Footer -->
-  
-  </div>
-<!-- Link to page
-================================================== -->
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+	</body>
 </html>
+
