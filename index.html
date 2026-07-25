@@ -1,950 +1,290 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-	<meta name="google-adsense-account" content="ca-pub-6926906612094833">
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Jackson Template</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- SEO Meta Tags -->
+  <title>Mohammad Adnan | Lead Engineer (Backend)</title>
+  <meta name="description" content="Portfolio of Mohammad Adnan, Lead Backend Engineer specializing in Go (Golang), Java, scalable microservices, Agentic AI, high-concurrency architecture, and Kubernetes." />
+  <meta name="keywords" content="Mohammad Adnan, Lead Engineer, Backend Engineer, Golang, Java, Kubernetes, Microservices, Agentic AI, LangGraph, System Design, Samsung" />
+  <meta name="author" content="Mohammad Adnan" />
 
-  <!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+  <!-- OpenGraph Meta Tags -->
+  <meta property="og:title" content="Mohammad Adnan | Lead Engineer (Backend)" />
+  <meta property="og:description" content="Lead Engineer (Backend) with 6.5+ years of experience in Go, Java, high-concurrency microservices, and Agentic AI automation." />
+  <meta property="og:image" content="images/profile_adnan.jpg" />
+  <meta property="og:url" content="https://mdadnan5529.github.io/" />
+  <meta property="og:type" content="website" />
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
+  <!-- Google Fonts: Heebo (matching Figma UI) & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Flaticons  -->
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+  <!-- Custom Figma Portfolio Stylesheet -->
+  <link rel="stylesheet" href="css/figma-portfolio.css" />
+</head>
+<body>
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+  <div class="container">
+    <!-- Header Navigation -->
+    <header class="header">
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#highlights" class="nav-link">Highlights</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li>
+            <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+              <i class="fas fa-moon"></i>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-	</head>
-	<body>
-	<div id="colorlib-page">
-		<div class="container-wrap">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-			<div class="text-center">
-				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
-				<h1 id="colorlib-logo"><a href="index.html">Mohammad Adnan</a></h1>
-				<span class="position"><a href="#">Software Developer </a></br>Transitioning to Cybersecurity.</span>
-			</div>
-			<nav id="colorlib-main-menu" role="navigation" class="navbar">
-				<div id="navbar" class="collapse">
-					<ul>
-						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
-						<li><a href="#" data-nav-section="about">About</a></li>
-						<li><a href="#" data-nav-section="experience">Experience</a></li>
-						<li><a href="#" data-nav-section="services">Certifications</a></li>
-						<li><a href="#" data-nav-section="skills">Skills</a></li>
-						<li><a href="#" data-nav-section="education">Education</a></li>
-						<li><a href="#" data-nav-section="work">Work</a></li>
-						<li><a href="#" data-nav-section="blog">Blog</a></li>
-						<li><a href="#" data-nav-section="contact">Contact</a></li>
-					</ul>
-				</div>
-			</nav>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Hi, I am Adnan,<br>Lead Engineer (Backend)</h1>
+        <p class="hero-subtitle">
+          Backend Lead with <strong>6.5+ years of experience</strong> expert in <strong>Go (Golang)</strong> and <strong>Java</strong>, specializing in scalable microservices, monolith modernization ($500 \rightarrow 2,500$ req/sec), progressive delivery, and <strong>Agentic AI</strong> workflows (LangGraph). Experienced in architecting high-concurrency systems, Kafka data pipelines, and cloud-native Kubernetes orchestration across <strong>Samsung</strong>, <strong>TechMojo</strong>, and <strong>Amdocs</strong>.
+        </p>
+        <a href="Mohammad_Adnan_Resume_13_july_fixed.pdf" target="_blank" class="btn-primary">
+          <i class="fas fa-file-pdf"></i> Download Resume
+        </a>
+      </div>
 
-			<div class="colorlib-footer">
-				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright <script>document.write(new Date().getFullYear());</script> All rights reserved. Made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> <span>Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a></span> <span>Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash.com</a></span></small></p>
-				<ul>
-					<li><a href="#"><i class="icon-facebook2"></i></a></li>
-					<li><a href="#"><i class="icon-twitter2"></i></a></li>
-					<li><a href="#"><i class="icon-instagram"></i></a></li>
-					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-				</ul>
-			</div>
+      <div class="hero-avatar-wrapper">
+        <img src="images/profile_adnan.jpg" alt="Mohammad Adnan Profile Picture" class="hero-avatar" />
+      </div>
+    </section>
+  </div>
 
-		</aside>
+  <!-- Highlights Section (Figma UI Section) -->
+  <section id="highlights" class="recent-posts-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Highlights</h2>
+        <a href="#experience" class="view-all-link">View all experience</a>
+      </div>
 
-		<div id="colorlib-main">
-			<section id="colorlib-hero" class="js-fullheight" data-section="home">
-				<div class="flexslider js-fullheight">
-					<ul class="slides">
-				   	<li style="background-image: url(images/img_bg_1.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner js-fullheight">
-					   					<div class="desc">
-						   					<h1>Hi! <br>I'm Adnan</h1>
-						   					<h2>Transforming code into protection, I'm on a mission to safeguard the digital world as a dedicated cybersecurity enthusiast. </h2>
-												<p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				  	</ul>
-			  	</div>
-			</section>
+      <div class="posts-grid">
+        <!-- Highlight Card 1 -->
+        <article class="post-card">
+          <h3 class="post-title">Legacy Monolith Modernization & Concurrency Scaling</h3>
+          <div class="post-meta">
+            <span>SAMSUNG</span>
+            <span class="post-meta-divider">|</span>
+            <span>Go, Channels, Microservices</span>
+          </div>
+          <p class="post-desc">
+            Spearheaded the architectural migration of the legacy SSP Server monolith (Java Vert.x) into 4 distinct, highly concurrent Go microservices. Applied native channel concurrency to scale capacity from 500 to 2,500 req/sec.
+          </p>
+        </article>
 
-			<section class="colorlib-about" data-section="about">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="col-md-12">
-									<div class="about-desc">
-										<span class="heading-meta">About me</span>
-										<h2 class="colorlib-heading">Who Am I?</h2>
-										<p><strong>Hi I'm Mohammad Adnan</strong> </br>With a solid foundation as a Senior Software Developer at TechMojo Solutions and prior experience at Amdocs, I am embarking on a dynamic transition into the world of cybersecurity, driven by my unwavering passion for safeguarding digital assets. At TechMojo Solutions, I spearheaded backend development for a sports betting platform catering to over 2 million users. I also significantly enhanced security measures by setting up ELK for log monitoring and utilizing it as an SIEM tool, resulting in a 70% improvement in security incident detection. My keen eye for vulnerabilities led to the identification and resolution of a critical SQL injection threat, reducing the risk of injection vulnerabilities by 40%. Moreover, I crafted a secure API with robust user authentication to mitigate the risk of Broken Access Control by 70%.</p>
-										<p>During my tenure at Amdocs, I honed my problem-solving skills, developing and enhancing numerous APIs using Spring MVC and ensuring the efficient runtime performance of scalable microservices. I have a strong foundation in Agile methodologies, collaborating with cross-functional teams to meet deadlines and uphold high code quality standards throughout the Software Development Life Cycle. This experience has equipped me with a unique blend of development expertise and a proactive approach to cybersecurity, making me a valuable asset in securing digital ecosystems.
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-									<div class="services color-1">
-										<span class="icon2"><i class="icon-bulb"></i></span>
-										<h3>Cybersecurity Enhancement</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-									<div class="services color-2">
-										<span class="icon2"><i class="icon-globe-outline"></i></span>
-										<h3>Vulnerability Identification</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
-									<div class="services color-3">
-										<span class="icon2"><i class="icon-data"></i></span>
-										<h3>Secure API Development</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-									<div class="services color-4">
-										<span class="icon2"><i class="icon-phone3"></i></span>
-										<h3>Application Security</h3>
-									</div>
-								</div>
-							</div>
-					<!---		<div class="row">
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<div class="hire">
-										<h2>I am happy to know you <br>that 300+ projects done sucessfully!</h2>
-										<a href="#" class="btn-hire">Hire me</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						---->
-					</div>
-				</div>
-			</section>
+        <!-- Highlight Card 2 -->
+        <article class="post-card">
+          <h3 class="post-title">Agentic AI Automation: "Alert Assist"</h3>
+          <div class="post-meta">
+            <span>SAMSUNG</span>
+            <span class="post-meta-divider">|</span>
+            <span>LangGraph, PagerDuty, VictoriaMetrics</span>
+          </div>
+          <p class="post-desc">
+            Engineered an autonomous Agentic AI system using LangGraph to retrieve metrics, validate alert states, and classify true/false alerts—reducing false positives by 80% and saving 60% developer incident resolution time.
+          </p>
+        </article>
 
+        <!-- Highlight Card 3 -->
+        <article class="post-card">
+          <h3 class="post-title">High-Concurrency Betting Platform & Horse Racing E2E</h3>
+          <div class="post-meta">
+            <span>TECHMOJO</span>
+            <span class="post-meta-divider">|</span>
+            <span>Java, Kafka, 500+ RPS</span>
+          </div>
+          <p class="post-desc">
+            Led backend development for a 500+ RPS sports betting engine from scratch and integrated Horse Racing E2E into production, creating a feature set contributing to 40% of total platform revenue.
+          </p>
+        </article>
 
-			<section class="colorlib-experience" data-section="experience">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Experience</span>
-							<h2 class="colorlib-heading animate-box">Work Experience</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-				         <div class="timeline-centered">
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
+        <!-- Highlight Card 4 -->
+        <article class="post-card">
+          <h3 class="post-title">DSP Integration & Ad Revenue Optimization</h3>
+          <div class="post-meta">
+            <span>SAMSUNG</span>
+            <span class="post-meta-divider">|</span>
+            <span>REST APIs, Ad Targeting</span>
+          </div>
+          <p class="post-desc">
+            Led the integration of 3 Demand-Side Platforms (DSPs) with sophisticated ad targeting mechanisms, directly driving a 25% increase in total platform revenue.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
 
-					               <div class="timeline-icon color-1">
-					                  <i class="icon-pen2"></i>
-					               </div>
+  <!-- Featured Experience Section (With Pointwise Details & Official Logos) -->
+  <section id="experience" class="featured-works-section">
+    <div class="container">
+      <h2 class="section-title">Work Experience</h2>
 
-					               <div class="timeline-label">
-					                  <h2><a href="#">Senior Software Developer</a> <span>June 2022 - Current</span></h2>
-					                  <p>
-										• Led backend developmentfor a sports betting platform serving 2+ million users</br>
-										• Setup log monitoring tool ELK to reduce debugging time by 40% and created metrics and dashboard to use ELK as SIEM tool which has improve detection of Security incident by 70%.</br>
-										• Identified and resolved a critical SQL injection vulnerability, bolstering platform security and reduced risk of Injection Vulnerability by 40%.</br>
-										• Created a secure API enabling traders to modify events with robust user authentication to reduce risk of Broken Access Control by 70%. </br>
-									  </p>
-					               </div>
-					            </div>
-					         </article>
+      <div class="works-list">
+        
+        <!-- Work 1: Samsung -->
+        <article class="work-item">
+          <div class="work-logo-wrapper">
+            <img src="images/logos/samsung.svg" alt="Samsung Logo" class="work-logo-img" />
+          </div>
+          <div class="work-content">
+            <h3 class="work-title">Lead Engineer (Backend) — SAMSUNG</h3>
+            <div class="work-meta">
+              <span class="badge-year">Feb 2025 - Present</span>
+              <span class="work-category">Bengaluru, Karnataka, India</span>
+            </div>
+            <ul class="work-bullets">
+              <li><strong>System Modernization & Architecture:</strong> Spearheaded the migration of the legacy SSP Server monolith (Java Vert.x) into 4 distinct, highly concurrent GoLang microservices, boosting throughput from 500 to 2,500 req/sec.</li>
+              <li><strong>Microservices Ownership:</strong> Completely owned end-to-end development and deployment of 1 core API while making foundational contributions to a second, optimizing system memory footprint.</li>
+              <li><strong>Agentic AI Automation:</strong> Engineered "Alert Assist" using LangGraph, PagerDuty, and VictoriaMetrics to autonomously triage alerts, reducing false positives by 80% and saving 60% developer incident response time.</li>
+              <li><strong>Revenue Optimization & DSP Integration:</strong> Led the integration of 3 Demand-Side Platforms (DSPs) and implemented ad targeting mechanisms, directly driving a 25% increase in platform revenue.</li>
+              <li><strong>Infrastructure & CI/CD:</strong> Provisioned scalable Kubernetes deployments and authored custom GitHub Actions workflows for automated testing and deployment.</li>
+            </ul>
+          </div>
+        </article>
 
+        <!-- Work 2: TechMojo -->
+        <article class="work-item">
+          <div class="work-logo-wrapper">
+            <img src="images/logos/techmojo.svg" alt="TechMojo Logo" class="work-logo-img" />
+          </div>
+          <div class="work-content">
+            <h3 class="work-title">Senior Software Developer — TECHMOJO SOLUTIONS</h3>
+            <div class="work-meta">
+              <span class="badge-year">June 2022 - Jan 2025</span>
+              <span class="work-category">Hyderabad, Telangana, India</span>
+            </div>
+            <ul class="work-bullets">
+              <li><strong>Platform Development:</strong> Led backend development for a highly concurrent sports betting platform built from scratch to production.</li>
+              <li><strong>Revenue Impact:</strong> Integrated Horse Racing E2E into the betting application, establishing a feature set contributing to 40% of overall platform revenue.</li>
+              <li><strong>High-Concurrency Architecture:</strong> Designed and implemented a microservices architecture handling 500+ requests per second, achieving a 40% improvement in processing times.</li>
+              <li><strong>Event-Driven Data Flow:</strong> Implemented Apache Kafka for real-time, event-driven data streaming, reducing process lag and optimizing data management.</li>
+            </ul>
+          </div>
+        </article>
 
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-2">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">Software Developer at Amdocs</a> <span>Sep 2020 - May 2022</span></h2>
-					                  <p>
-										• Solved complex business problems by developing and/or Enhancing 10+ APIs using Spring MVC for Operation Support System.</br>
-										• Improved runtime efficiency through the development of scalable microservices. </br>
-										• Collaborated in agile teams to meet deadlines and maintain high code quality standards. </br>
-										• Engaged in various phases of the Software Development Life Cycle, including development, debugging, unit testing, and code reviews, ensuring timely delivery and code excellence. </br>
-									  </p>
-					               </div>
-					            </div>
-					         </article>
+        <!-- Work 3: Amdocs -->
+        <article class="work-item">
+          <div class="work-logo-wrapper">
+            <img src="images/logos/amdocs.svg" alt="Amdocs Logo" class="work-logo-img" />
+          </div>
+          <div class="work-content">
+            <h3 class="work-title">Software Developer — AMDOCS</h3>
+            <div class="work-meta">
+              <span class="badge-year">Sept 2020 - May 2022</span>
+              <span class="work-category">Pune, Maharashtra, India</span>
+            </div>
+            <ul class="work-bullets">
+              <li><strong>API Development:</strong> Solved complex business problems by developing and enhancing 10+ RESTful APIs using Spring MVC for an Operation Support System.</li>
+              <li><strong>Runtime Optimization:</strong> Improved runtime efficiency by 30% through microservice query and execution flow optimizations.</li>
+              <li><strong>Full SDLC Ownership:</strong> Engaged in full software lifecycle including requirements engineering, development, debugging, unit testing, and code reviews.</li>
+            </ul>
+          </div>
+        </article>
 
-					         <!--<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-3">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">System Analyst</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-					               </div>
-					            </div>
-					         </article>
-							-->
-							<!--
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-4">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">Creative Designer</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-					               </div>
-					            </div>
-					         </article>
-							-->
-							<!--
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-5">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">UI/UX Designer at Envato</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-					               </div>
-					            </div>
-					         </article>
-							 -->
-					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-none">
-					               </div>
-					            </div>
-					         </article>
-					      </div>
-					   </div>
-				   </div>
-				</div>
-			</section>
+      </div>
+    </div>
+  </section>
 
-			
-			<section class="colorlib-services" data-section="services">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">What I have achieved ?</span>
-							<h2 class="colorlib-heading">Here are some of my certifications showcasing my expertise:</h2>
-						</div>
-					</div>
-					<div class="row row-pt-md">
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-1">
-								<span class="icon">
-									<i class="icon-bulb"></i>
-								</span>
-								<div class="desc">
-									<h3>Google</h3>
-									<p>
-										Google Cybersecurity Professional </br>
-										Sept 2023 </br>
-										<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/NQZTKQJSY89B" >Verify</a>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-2">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Simplilearn</h3>
-									<p>
-										Introduction to Cloud Security</br>
-										Sept 2023 </br>
-										<a href="https://simpli-web.app.link/e/4f2ArxwOlDb" >Verify</a>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-3">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>EC-Council</h3>
-									<p>
-										Ethical Hacking Essentials(EHE)</br>
-										Sept 2023 </br>
-										<a href="https://codered.eccouncil.org/certificate/7d1d242b-8124-47af-807a-1a4125d598f7" >Verify</a>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-4">
-								<span class="icon">
-									<i class="icon-layers2"></i>
-								</span>
-								<div class="desc">
-									<h3>Udemy</h3>
-									<p>
-										Secure Coding in Java Web Application</br>
-										Sept 2023 </br>
-										<a href="https://www.udemy.com/certificate/UC-34cdc57b-4980-4f02-972c-51638dac9f75/" >Verify</a>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-5">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Udemy</h3>
-									<p>
-										Full Ethical Hacking Course </br>
-									</br>
-										Sept 2023 </br>
-										<a href="https://codered.eccouncil.org/certificate/7d1d242b-8124-47af-807a-1a4125d598f7" >Verify</a>
-									</p>
-								</div>
-							</div>
-						</div>
-						<!--
-							<div class="col-md-4 text-center animate-box">
-							<div class="services color-6">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-					-->
-					</div>
-				</div>
-			</section>
-			
-			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
-				<div class="overlay"></div>
-				<div class="colorlib-narrow-content">
-					<div class="row">
-					</div>
-					<div class="row">
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="309" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Cups of coffee</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="356" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Projects</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="30" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Clients</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Partners</span>
-						</div>
-					</div>
-				</div>
-			</div>
+  <!-- Skills & Education Section (Light Blue Band) -->
+  <section id="skills" class="skills-edu-section">
+    <div class="container">
+      <h2 class="section-title">Capabilities & Academic Credentials</h2>
 
-			<section class="colorlib-skills" data-section="skills">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Specialty</span>
-							<h2 class="colorlib-heading animate-box">My Skills</h2>
-						</div>
-					</div>
-					<!--<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<p>I am a versatile developer with proficiency in a variety of programming languages, including Java, Golang, Python, C, and C++. My expertise extends to database management through SQL, ensuring secure REST APIs, and cloud security. I am well-versed in containerization with Docker and Kubernetes, adept at debugging, and skilled in authentication, authorization, vulnerability management, and assessment. My tech stack includes Spring MVC and Security, NIST RMF, and CSF, SIEM, intrusion detection and prevention, application security (OWASP Top 10), and ELK. I also have hands-on experience with tools like Metasploit, Burp Suite, IntelliJ, VS Code, and Splunk.</p>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Photoshop</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
-								    <span>75%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>jQuery</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
-								    <span>60%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>HTML5</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-								    <span>85%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>CSS3</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>WordPress</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
-								    <span>70%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>SEO</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-					
-					</div> 
-				-->
-				<div class="row">
-					<div class="col-md-5">
-						<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-							<h3>Programming</h3>
-								<h4>Languages</h4>
-							<ul>
-								<li>Java</li>
-								<li>Golang</li>
-								<li>Python</li>
-								<li>C, C++</li>
-								<li>SQL</li>
-							</ul>
+      <div class="skills-grid">
+        <!-- Skills Box -->
+        <div class="skills-box">
+          <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 12px;">Technical Skills</h3>
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 16px;">
+            Languages, frameworks, databases, and DevOps ecosystem:
+          </p>
+          <div class="skills-tags-container">
+            <span class="figma-tag"><i class="fab fa-golang" style="color:#00a8cc;"></i> Go (Golang)</span>
+            <span class="figma-tag"><i class="fab fa-java" style="color:#ff6464;"></i> Java</span>
+            <span class="figma-tag"><i class="fab fa-python"></i> Python</span>
+            <span class="figma-tag"><i class="fas fa-robot" style="color:#14b8a6;"></i> LangGraph (Agentic AI)</span>
+            <span class="figma-tag"><i class="fas fa-leaf" style="color:#10b981;"></i> Spring Boot</span>
+            <span class="figma-tag"><i class="fas fa-bolt"></i> Vert.x</span>
+            <span class="figma-tag"><i class="fas fa-dharmachakra"></i> Kubernetes</span>
+            <span class="figma-tag"><i class="fab fa-docker"></i> Docker</span>
+            <span class="figma-tag"><i class="fas fa-stream"></i> Apache Kafka</span>
+            <span class="figma-tag"><i class="fas fa-database"></i> PostgreSQL</span>
+            <span class="figma-tag"><i class="fas fa-memory"></i> Redis</span>
+            <span class="figma-tag"><i class="fas fa-chart-line"></i> VictoriaMetrics</span>
+            <span class="figma-tag"><i class="fab fa-github"></i> GitHub Actions</span>
+            <span class="figma-tag"><i class="fas fa-search"></i> ELK Stack</span>
+            <span class="figma-tag"><i class="fas fa-bell"></i> PagerDuty</span>
+          </div>
+        </div>
 
-							<h4>Other</h4>
-							<ul>
-								<li>Linux</li>
-								<li>REST APIs</li>
-								<li>Cloud Security</li>
-								<li>Docker & Kubernetes</li>
-								<li>Debugging</li>
-								<li>Authentication and Authorization</li>
-								<li>Vulnerability Management and Assessment</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-7 col-md-push-1">
-						<div class="row">
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<h3>Tech Stack</h3>
-									<h4>Frameworks</h4>
-								<ul>
-									<li>Spring MVC and Security</li>
-									<li>NIST RMF and CSF</li>
-									<li>SIEM</li>
-									<li>Intrusion Detection and Prevention</li>
-									<li>Application Security and OWASP Top 10</li>
-									<li>ELK</li>
-								</ul>
-	
-								<h4>Tools</h4>
-								<ul>
-									<li>Metasploit</li>
-									<li>Burp Suite</li>
-									<li>IntelliJ</li>
-									<li>VS Code</li>
-									<li>Splunk</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
+        <!-- Education Box -->
+        <div class="edu-box">
+          <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 16px;">Education & Certification</h3>
+          
+          <div class="edu-item">
+            <div class="edu-school">BIT MESRA</div>
+            <div class="edu-degree">B.E. Information Technology</div>
+            <div class="edu-year">Graduated July 2020 | CGPA: 7.91</div>
+          </div>
 
+          <div class="edu-item">
+            <div class="edu-school">St. Xavier’s College</div>
+            <div class="edu-degree">Intermediate in Science</div>
+            <div class="edu-year">Completed 2016 | Score: 87.00%</div>
+          </div>
 
+          <div class="edu-item" style="border-top: 1px dashed var(--border-color); padding-top: 12px;">
+            <div class="edu-school"><i class="fas fa-shield-alt" style="color:var(--accent-primary);"></i> Secure Coding in Java</div>
+            <div class="edu-degree">Udemy Certification</div>
+            <div class="edu-year">Issued April 2023</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-				</div>
-			</section>
+  <!-- Footer Section -->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <div class="social-links">
+        <a href="https://github.com/mdadnan5529" target="_blank" class="social-link" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/md-adnan-6722b4131/" target="_blank" class="social-link" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="javascript:void(0)" onclick="copyToClipboard('mdadnan5336@gmail.com', 'Email')" class="social-link" title="Copy Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="javascript:void(0)" onclick="copyToClipboard('7903925317', 'Phone')" class="social-link" title="Copy Phone">
+          <i class="fas fa-phone"></i>
+        </a>
+      </div>
+      <p class="copyright-text">
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> Mohammad Adnan. All rights reserved. Hosted on GitHub Pages.
+      </p>
+    </div>
+  </footer>
 
-			<section class="colorlib-education" data-section="education">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Education</span>
-							<h2 class="colorlib-heading animate-box">Education</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<div class="fancy-collapse-panel">
-								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingOne">
-									        <h4 class="panel-title">
-									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Bachelor of Engineering 
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-									         <div class="panel-body">
-									            <div class="row">
-										      		<div class="col-md-6">
-										      			<p>
-															Institue : Birla Institue of Technology , Mesra </br>
-															Duration : 2016 - 2020
-														</p>
-										      		</div>
-										      		<div class="col-md-6">
-										      			<p>
-															Major : Information Technology </br>
-															GPA : 7.91
-														</p>
-										      		</div>
-										      	</div>
-									         </div>
-									    </div>
-									</div>
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingOne">
-									        <h4 class="panel-title">
-									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Intermediate 
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-									         <div class="panel-body">
-									            <div class="row">
-										      		<div class="col-md-6">
-										      			<p>
-															Institue : St. Xavier's Inter College , Lupungutu Chaibasa </br>
-															Duration : 2014 - 2016
-														</p>
-										      		</div>
-										      		<div class="col-md-6">
-										      			<p>
-															Major : Science </br>
-															Percentage : 87.00% (7th Rank in State)
-														</p>
-										      		</div>
-										      	</div>
-									         </div>
-									    </div>
-									</div>
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingOne">
-									        <h4 class="panel-title">
-									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Matriculation
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-									         <div class="panel-body">
-									            <div class="row">
-										      		<div class="col-md-6">
-										      			<p>
-															Institue : St. Xavier's High School Lupungutu Chaibasa </br>
-															Duration : 2014
-														</p>
-										      		</div>
-										      		<div class="col-md-6">
-										      			<p>
-															Major : General  </br>
-															GPA : 87.60%
-														</p>
-										      		</div>
-										      	</div>
-									         </div>
-									    </div>
-									</div>
-									<!--
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingTwo">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Intermediate 
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-													<ul>
-														<li>Separated they live in Bookmarksgrove right</li>
-														<li>Separated they live in Bookmarksgrove right</li>
-													</ul>
-									        </div>
-									    </div>
-									</div>
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingThree">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Diploma in Information Technology
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
-									        </div>
-									    </div>
-									</div>
+  <!-- Toast Notification -->
+  <div id="toast-notification" class="toast"></div>
 
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingFour">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Diploma in Information Technology
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
-									        </div>
-									    </div>
-									</div>
-
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingFive">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">High School Secondary Education
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
-									        </div>
-									    </div>
-									</div>
-								-->
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<!--
-				<section class="colorlib-work" data-section="work">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Work</span>
-							<h2 class="colorlib-heading animate-box">Recent Work</h2>
-						</div>
-					</div>
-					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-						<div class="col-md-12">
-							<p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-1.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 01</a></h3>
-										<span>Website</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/img-2.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 02</a></h3>
-										<span>Animation</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-							<div class="project" style="background-image: url(images/img-3.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 03</a></h3>
-										<span>Illustration</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-							<div class="project" style="background-image: url(images/img-4.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 04</a></h3>
-										<span>Application</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-5.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 05</a></h3>
-										<span>Graphic, Logo</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/img-6.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 06</a></h3>
-										<span>Web Design</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div>
-					</div>
-				</div>
-			</section>
-		-->
-
-		<!--
-			<section class="colorlib-blog" data-section="blog">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Read</span>
-							<h2 class="colorlib-heading">Recent Blog</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Renovating National Gallery</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Make website from scratch</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div>
-					</div>
-				</div>
-			</section>
-			-->
-
-			<section class="colorlib-contact" data-section="contact">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Get in Touch</span>
-							<h2 class="colorlib-heading">Contact</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-5">
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-globe-outline"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="#">mdadnan5336@gmail.com</a></p>
-								</div>
-							</div>
-
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-map"></i>
-								</div>
-								<div class="colorlib-text">
-									<p>Hyderabad India</p>
-								</div>
-							</div>
-
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-phone"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="tel://">+91 7903925317</a></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-7 col-md-push-1">
-							<div class="row">
-								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-									<ul>
-										<a class="btn btn-primary" style="background-color: #55acee;" href="#!" role="button">
-											<i class="fab fa-twitter me-2"></i>Twitter</a>
-										</br>
-										</br>
-										<a class="btn btn-primary" style="background-color: #55acee;" href="#!" role="button">
-											<i class="fab fa-twitter me-2"></i>LinkedIn</a>
-										</br>
-										</br>
-										<a class="btn btn-primary" style="background-color: #55acee;" href="#!" role="button">
-											<i class="fab fa-twitter me-2"></i>Github</a>
-										</br>
-										</br>
-										<a class="btn btn-primary" style="background-color: #55acee;" href="#!" role="button">
-											<i class="fab fa-twitter me-2"></i>picoCTF</a>
-										</br>
-									</ul>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-		</div><!-- end:colorlib-main -->
-	</div><!-- end:container-wrap -->
-	</div><!-- end:colorlib-page -->
-
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Owl carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- Counters -->
-	<script src="js/jquery.countTo.js"></script>
-	
-	
-	<!-- MAIN JS -->
-	<script src="js/main.js"></script>
-
-	</body>
+  <!-- JavaScript Controller -->
+  <script src="js/figma-portfolio.js"></script>
+</body>
 </html>
-
